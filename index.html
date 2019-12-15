@@ -16,7 +16,7 @@
 
 <!-- Bootstrap -->
 <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/all.css">
 
 <!-- Stylesheet
     ================================================== -->
@@ -24,6 +24,15 @@
 <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
 <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
 <script type="text/javascript" src="js/modernizr.custom.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154632801-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-154632801-1');
+</script>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -399,31 +408,10 @@
     <div class="section-title center">
       <h2>Say hello. Let's talk</h2>
       <hr>
-      <form name="sentMessage" id="contactForm" novalidate>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <textarea name="message" id="message" class="form-control" rows="1" placeholder="Drop me a line" required></textarea>
-          <p class="help-block text-danger"></p>
-        </div>
-        <div id="success"></div>
-        <button type="submit" class="btn btn-default">Send</button>
-      </form>
       <div class="social">
         <ul>
-          <li><a href="https://www.linkedin.com/in/dianavhernandezpascual/"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/dianavhernandezpascual/"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="mailto:dianahernandezpascual@gmail.com"><i class="fas fa-envelope-open"></i></a></li>
         </ul>
       </div>
     </div>
