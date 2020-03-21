@@ -147,20 +147,20 @@ hr {
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
 	color: #fff;
-	background-color: #ba8d4f;
-	border-color: #ba8d4f;
+	background-color: #1d0100;
+	border-color: #1d0100;
 }
 .btn-primary {
-	color: #fff;
-	background-color: #fff3d9;
+	color: #1d0100;
+	background-color: #1d0100;
 	padding: 10px 20px;
 	border-color: #fff3d9;
 	border-radius: 0;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
 	color: #fff;
-	background-color: #7bc3d1;
-	border-color: #7bc3d1;
+	background-color: #1d0100;
+	border-color: #1d0100;
 }
 .btn-primary i.fa {
 	margin-right: 10px;
@@ -174,7 +174,7 @@ hr {
 	text-align: center;
 	color: #fff;
 	background: url(../img/intro-bg.jpg) no-repeat center top;
-	background-color: #eae6ca;
+	background-color: #fff3d9;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -218,8 +218,8 @@ hr {
 	padding: 0px;
 }
 #skills .skill h4 {
-	font-weight: 600;
-	color: #ba8d4f;
+	font-weight: 450;
+	color: #1d0100;
 }
 .chart {
 	position: relative;
@@ -270,7 +270,7 @@ ol.type li {
 	margin-left: 20px;
 }
 ol.type li a {
-	background: #eae6ca;
+	background: #1d0100;
 	color: #fff;
 	padding: 6px 14px;
 }
