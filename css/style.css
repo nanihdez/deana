@@ -207,7 +207,7 @@ hr {
 	background: #eae6ca;
 }
 #skills h2 {
-	color: #fff;
+	color: #ba8d4f;
 }
 #skills hr {
 	background: rgba(255,255,255,0.3);
@@ -219,7 +219,7 @@ hr {
 }
 #skills .skill h4 {
 	font-weight: 600;
-	color: #fff;
+	color: #ba8d4f;
 }
 .chart {
 	position: relative;
@@ -237,7 +237,7 @@ hr {
 .percent {
 	display: inline-block;
 	font-size: 21px;
-	color: #fff3d9;
+	color: #1d0100;
 	line-height: 152px;
 	z-index: 2;
 }
