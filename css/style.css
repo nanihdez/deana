@@ -250,13 +250,13 @@ hr {
 #portfolio {
 	padding: 80px 0;
 	background: #eae6ca; /* Old browsers */
-	background: -moz-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(49%, #f4f5f6), color-stop(100%, #ffffff)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); /* IE6-9 */
+	background: -moz-linear-gradient(top, #eae6ca 0%, #eae6ca 49%, #eae6ca 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eae6ca), color-stop(49%,#eae6ca), color-stop(100%, #eae6ca)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #eae6ca 0%, #eae6ca 49%, #eae6ca 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #eae6ca 0%, #f4f5f6 49%, #eae6ca 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #eae6ca 0%, #f4f5f6 49%, #eae6ca 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #eae6ca 0%, #f4f5f6 49%, #eae6ca 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eae6ca', endColorstr='#eae6ca', GradientType=0 ); /* IE6-9 */
 }
 .categories {
 	padding-bottom: 30px;
@@ -275,11 +275,11 @@ ol.type li a {
 	padding: 6px 14px;
 }
 ol.type li a.active {
-	background: #fff3d9;
+	background: #ba8d4f;
 	color: #fff;
 }
 ol.type li a:hover {
-	background: #fff3d9;
+	background: #ba8d4f;
 	color: #fff;
 }
 .isotope-item {
@@ -387,13 +387,13 @@ ol.type li a:hover {
 	background: #eae6ca;
 }
 #achievements h2 {
-	color: #fff;
+	color: #ba8d4f;
 }
 #achievements hr {
 	background: rgba(255,255,255,0.3);
 }
 .achievement-box h4 {
-	color: #fff;
+	color: #ba8d4f;
 	font-size: 20px;
 	font-weight: 400;
 	margin-left: 5px;
@@ -402,7 +402,7 @@ ol.type li a:hover {
 	font-size: 52px;
 	font-weight: 600;
 	display: block;
-	color: #ba8d4f;
+	color: #1d0100;
 	padding: 0;
 	margin: 0;
 }
