@@ -408,7 +408,7 @@ ol.type li a:hover {
 }
 /* Resume Section */
 #resume {
-	background: url(../img/ny.jpg) no-repeat center top;
+	background:  #eae6ca;
 }
 .timeline {
 	position: relative;
@@ -514,7 +514,7 @@ ol.type li a:hover {
 #contact {
 	padding: 100px 0 40px 0;
 	color: #fff3d9;
-	background: #eae6ca;
+	background:url(../img/ny1.jpg) no-repeat right top;
 }
 #contact h2 {
 	color: #fff;
