@@ -151,8 +151,8 @@ hr {
 	border-color: #1d0100;
 }
 .btn-primary {
-	color: #1d0100;
-	background-color: #1d0100;
+	color: #fff3d9;
+	background-color: #1d0102;
 	padding: 10px 20px;
 	border-color: #fff3d9;
 	border-radius: 0;
@@ -181,7 +181,7 @@ hr {
 	-o-background-size: cover;
 }
 .section-title.center {
-	padding: 25px 0 45px 0;
+	padding: 50px 0 90px 0;
 }
 /* About Section */
 #about {
@@ -511,9 +511,9 @@ ol.type li a:hover {
 }
 /* Contact Section */
 #contact {
-	padding: 100px 0 40px 0;
+	padding: 50px 0 20px 0;
 	color: #fff3d9;
-	background:url(../img/ny1.jpg) no-repeat right top;
+	background:url(../img/ny.jpg) no-repeat right top;
 }
 #contact h2 {
 	color: #fff;
