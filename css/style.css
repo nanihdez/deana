@@ -202,13 +202,13 @@ hr {
 }
 /* Skills Section */
 .skills 
-.skill-content{padding: 50px 0 80px;}
-.single-skill-content{padding-top: 100px;}
+.skill-content{padding: 15px 0 30px;}
+.single-skill-content{padding-top: 25px;}
 .section-heading h2 {
     font-size: 24px;
     font-weight: 600;
     text-transform: uppercase;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
     border-bottom: 1px solid #e5ebf2;
 }
 .single-progress-txt {
@@ -399,31 +399,6 @@ ol.type li a:hover {
 	font-size: 20px;
 	padding: 5px;
 	color: #eae6ca;
-}
-/* Some stats Section */
-#achievements {
-	padding: 100px 0;
-	background: #eae6ca;
-}
-#achievements h2 {
-	color: #ba8d4f;
-}
-#achievements hr {
-	background: rgba(255,255,255,0.3);
-}
-.achievement-box h4 {
-	color: #ba8d4f;
-	font-size: 20px;
-	font-weight: 400;
-	margin-left: 5px;
-}
-.achievement-box span.count {
-	font-size: 52px;
-	font-weight: 600;
-	display: block;
-	color: #1d0100;
-	padding: 0;
-	margin: 0;
 }
 /* Resume Section */
 #resume {
