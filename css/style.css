@@ -192,8 +192,8 @@ hr {
 	margin-left: 10px;
 }
 #about img {
-	width: 400px;
-	height: 400px;
+	width: 350px;
+	height: 350px;
 	display: inline-block;
 }
 #about p {
@@ -247,7 +247,7 @@ hr {
 }
 /* Portfolio Section */
 #portfolio {
-	padding: 80px 0;
+	padding: 100px 0;
 	background: #eae6ca; /* Old browsers */
 	background: -moz-linear-gradient(top, #eae6ca 0%, #eae6ca 49%, #eae6ca 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eae6ca), color-stop(49%,#eae6ca), color-stop(100%, #eae6ca)); /* Chrome,Safari4+ */
@@ -380,7 +380,7 @@ ol.type li a:hover {
 	padding: 5px;
 	color: #eae6ca;
 }
-/* Achivements Section */
+/* Some stats Section */
 #achievements {
 	padding: 100px 0;
 	background: #eae6ca;
@@ -511,7 +511,7 @@ ol.type li a:hover {
 }
 /* Contact Section */
 #contact {
-	padding: 50px 0 20px 0;
+	padding: 25px 0 10px 0;
 	color: #fff3d9;
 	background:url(../img/ny.jpg) no-repeat right top;
 }
@@ -547,7 +547,7 @@ label {
 #contact .form-control {
 	display: block;
 	width: 100%;
-	padding: 6px 12px;
+	padding: 6px 0 12px 0;
 	font-size: 14px;
 	line-height: 1.42857143;
 	color: #2c3e50;
@@ -560,24 +560,6 @@ label {
 	-webkit-transition: none;
 	-o-transition: none;
 	transition: none;
-}
-#contact .form-control:focus {
-	border-color: inherit;
-	outline: 0;
-	-webkit-box-shadow: transparent;
-	box-shadow: transparent;
-}
-.form-control::-webkit-input-placeholder {
-color: #2c3e50;
-}
-.form-control:-moz-placeholder {
-color: #2c3e50;
-}
-.form-control::-moz-placeholder {
-color: #2c3e50;
-}
-.form-control:-ms-input-placeholder {
-color: #2c3e50;
 }
 #contact .social {
 	margin-top: 60px;
