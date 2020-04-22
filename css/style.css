@@ -22,7 +22,7 @@ h2 {
 }
 h3, h4 {
 	color:#ba8d4f;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 600;
 }
 h5 {
@@ -201,50 +201,70 @@ hr {
 	margin-bottom: 30px;
 }
 /* Skills Section */
-#skills {
-	padding: 100px 0;
-	background: #eae6ca;
+.skills 
+.skill-content{padding: 50px 0 80px;}
+.single-skill-content{padding-top: 100px;}
+.section-heading h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #e5ebf2;
 }
-#skills h2 {
-	color: #ba8d4f;
+.single-progress-txt {
+    display: flex;
 }
-#skills hr {
-	background: rgba(255,255,255,0.3);
+.single-progress-txt h3 {
+    width: 10%;
+    color: #1d0100;
+    position: relative;
+    top: 6px;
+    left: 20px;
 }
-#skills .skill {
-	margin-bottom: 40px;
-	text-align: center;
-	padding: 0px;
+.barWrapper {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
 }
-#skills .skill h4 {
-	font-weight: 450;
-	color: #1d0100;
+.progress {
+    border-radius:3px;
+    overflow: visible;
+    background: #e6ecf3;
+    height:8px;
+    margin-top: 15px;
+    width: 85%;
+    margin-bottom: 37px;
 }
-.chart {
-	position: relative;
-	display: inline-block;
-	width: 152px;
-	height: 152px;
-	margin-bottom: 26px;
-	text-align: center;
+.progress-bar {
+   background: #1d0100;
+    border-radius: 3px;
+   -webkit-transition: width 1.5s ease-in-out;
+   -ms-transition: width 1.5s ease-in-out;
+   -moz-transition: width 1.5s ease-in-out;
+   -o-transition: width 1.5s ease-in-out;
+   transition: width 1.5s ease-in-out;
 }
-.chart canvas {
-	position: absolute;
-	top: 0;
-	left: 0;
+.tooltip{
+   position:relative;
+   float:right;
 }
-.percent {
-	display: inline-block;
-	font-size: 21px;
-	color: #1d0100;
-	line-height: 152px;
-	z-index: 2;
+.tooltip > .tooltip-inner {
+   background-color: transparent;
+   padding: 1px 5px;
+   color: #1d0100;
+   font-weight: 500;
+   font-size: 12px;
+   border-radius: 0;
 }
-.percent:after {
-	content: '%';
-	margin-left: 0.1em;
-	font-size: .8em;
+.popOver + .tooltip > .tooltip-arrow {
+   border-left: 6px solid transparent;
+   border-right: 6px solid transparent;
+   border-top: 6px solid #fff;
+   bottom: -1px;
+   transform: translateX(-50%);
+   margin-left: 0;
 }
+
 /* Portfolio Section */
 #portfolio {
 	padding: 100px 0;
