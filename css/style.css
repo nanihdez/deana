@@ -1301,7 +1301,7 @@ input[type="text"] {
     #footer .subscribe .form-control:focus, #footer .subscribe .form-control:active {
       -webkit-box-shadow: none;
       box-shadow: none;
-      border: 2px solid rgba(202, 130, 248, 0.8); }
+      border: 2px solid #ff0080; }
   #footer .subscribe .btn-custom {
     width: 100%;
     padding: 10px 0;
